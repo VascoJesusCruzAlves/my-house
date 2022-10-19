@@ -96,40 +96,7 @@ public class Picture
     
     public void atardecer()
     {
-        wall = new Square();
-        wall.moveHorizontal(-140);
-        wall.moveVertical(20);
-        wall.changeSize(120);
-        wall.makeVisible();
-        
-        window = new Square();
-        window.changeColor("black");
-        window.moveHorizontal(-120);
-        window.moveVertical(40);
-        window.changeSize(40);
-        window.makeVisible();
-
-        roof = new Triangle();  
-        roof.changeSize(60, 180);
-        roof.moveHorizontal(20);
-        roof.moveVertical(-60);
-        roof.makeVisible();
-
-        sun = new Circle();
-        sun.changeColor("yellow");
-        sun.moveHorizontal(100);
-        sun.moveVertical(-90);
-        sun.changeSize(80);
-        sun.makeVisible();
-        
-        
-        grass = new Square();
-        grass.changeColor("green");
-        grass.moveHorizontal(-400);
-        grass.moveVertical(140);
-        grass.changeSize(600);
-        grass.makeVisible();
-        sun.slowMoveVertical(180);
+        sun.slowMoveVertical(150);
     }
 }
 
